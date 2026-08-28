@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "static-preview",
+      "name": "static-preview2",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "5599"],
-      "port": 5599
+      "runtimeArgs": ["-m", "http.server", "5601"],
+      "port": 5601
     }
   ]
 }
