@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111827">
+    <meta name="description" content="طرق التحويل المتاحة للتواصل مع جورج حنا: إنستاباي، فودافون كاش، وتحويل بنكي.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="طرق التحويل">
+    <meta property="og:description" content="طرق التحويل المتاحة للتواصل مع جورج حنا: إنستاباي، فودافون كاش، وتحويل بنكي.">
+    <meta property="og:locale" content="ar_EG">
+    <title>طرق التحويل</title>
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23111827'/%3E%3Ctext x='50' y='68' font-family='Segoe UI, Arial, sans-serif' font-size='44' font-weight='800' fill='%23fff' text-anchor='middle'%3EGH%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="shell">
+        <section class="card">
+            <div class="avatar" id="avatar"><span id="avatar-initials">GH</span></div>
+            <p class="eyebrow">طرق التحويل المتاحة</p>
+            <h1 id="owner-name"></h1>
+            <p class="intro" id="welcome-text"></p>
+
+            <div class="methods">
+                <button class="method instapay" data-method="instapay"
+                    type="button"><b data-icon="instapay"></b><span><strong>إنستاباي</strong><small>رابط دفع، رقم الهاتف
+                            وQR</small></span><i data-icon="chevron"></i></button>
+                <button class="method vodafone" data-method="vodafone" type="button"><b data-icon="vodafone"></b><span><strong>فودافون
+                            كاش</strong><small>رابط، رقم المحفظة وQR</small></span><i data-icon="chevron"></i></button>
+                <button class="method bank" data-method="bank" type="button"><b data-icon="bank"></b><span><strong>تحويل
+                            بنكي</strong><small>كل بيانات الحساب البنكي</small></span><i data-icon="chevron"></i></button>
+            </div>
+
+        </section>
+    </main>
+
+    <dialog id="details-dialog">
+        <button class="close" data-close type="button" aria-label="إغلاق">×</button>
+        <div id="details-content"></div>
+    </dialog>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
